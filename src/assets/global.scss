@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+
+
+@font-face {
+  font-family: HyliaSerif;
+  src: url("HyliaSerifBeta-Regular.otf") format("opentype");
+}
+
+body {
+  font-family: 'Open Sans';
+  // background: #ece6d9;
+  background: url('https://images.pexels.com/photos/4413770/pexels-photo-4413770.jpeg?cs=srgb&dl=pexels-ph%E1%BA%A1m-th%C3%A0nh-%C4%91%E1%BA%A1t-4413770.jpg&fm=jpg') no-repeat center center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: HyliaSerif;
+  letter-spacing: 4px;
+}

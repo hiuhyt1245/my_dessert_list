@@ -45,7 +45,7 @@ export default defineComponent({
 
     const deleteDessert = (dessertId:string) =>{
       const dessertIndex = storeCounter.desserts.findIndex(
-        (dessert) => dessert.title === dessertId
+        (dessert: Dessert) => dessert.title === dessertId
       );
       if (dessertIndex === -1) return;
       storeCounter.desserts.splice(dessertIndex, 1)
